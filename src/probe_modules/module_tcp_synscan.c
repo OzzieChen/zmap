@@ -14,6 +14,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <assert.h>
+#include <logger.h>
 
 #include "../../lib/includes.h"
 #include "../fieldset.h"
@@ -41,6 +42,10 @@ static int synscan_init_perthread(void* buf, macaddr_t *src,
 	make_ip_header(ip_header, IPPROTO_TCP, len);
 	struct tcphdr *tcp_header = (struct tcphdr*)(&ip_header[1]);
 	make_tcp_header(tcp_header, dst_port, TH_SYN);
+    log_info("ozzie", "module_tcp_synscan - synscan_make_packet() method - validation(seq) = %d", ip_header);
+//    struct ip *ip_header = (struct ip*)(&eth_header[1]);
+//    struct tcphdr *tcp_header = (struct tcphdr*)(&ip_header[1]);
+
 	return EXIT_SUCCESS;
 }
 
@@ -50,6 +55,8 @@ static int synscan_make_packet(void *buf, ipaddr_n_t src_ip, ipaddr_n_t dst_ip,
 	struct ether_header *eth_header = (struct ether_header *)buf;
 	struct ip *ip_header = (struct ip*)(&eth_header[1]);
 	struct tcphdr *tcp_header = (struct tcphdr*)(&ip_header[1]);
+	// Ozzie
+    log_info("ozzie", "module_tcp_synscan - synscan_make_packet() method - validation(seq) = %d", validation[0]);
 	uint32_t tcp_seq = validation[0];
 
 	ip_header->ip_src.s_addr = src_ip;
@@ -108,6 +115,7 @@ static int synscan_validate_packet(const struct ip *ip_hdr, uint32_t len,
 	}
 
 	// We treat RST packets different from non RST packets
+    // TODO: ozzie - check out the value & meaning of validation
 	if (tcp->th_flags & TH_RST) {
 		// For RST packets, recv(ack) == sent(seq) + 0 or + 1
 		if (htonl(tcp->th_ack) != htonl(validation[0])

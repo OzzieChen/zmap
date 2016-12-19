@@ -306,6 +306,8 @@ int main(int argc, char *argv[])
 	if (cmdline_parser_ext(argc, argv, &args, params) != 0) {
 		exit(EXIT_SUCCESS);
 	}
+	// Ozzie
+	log_info("ozzie", "args.config_arg = %s", args.config_arg);
 	if (args.config_given || file_exists(args.config_arg)) {
 		params->initialize = 0;
 		params->override = 0;

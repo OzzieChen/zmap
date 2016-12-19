@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ZMAP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmaplib">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/libzmaplib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 zmaplib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmaplib/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/libzmaplib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 zmaplib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ziterate">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ziterate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ziterate"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ziterate/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ziterate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ziterate/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztests">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ztests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ztests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztests/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ztests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ztests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztee">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ztee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ztee"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztee/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/ztee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 ztee/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zblacklist">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/zblacklist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 zblacklist"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zblacklist/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/zblacklist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 zblacklist/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmap">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/zmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 zmap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zmap/fast">
+				<Option output="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/zmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/json-c/0.12/include/json-c"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/lib"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/output_modules"/>
+					<Add directory="/Users/ozziechen/ClionProjects/scanner/src/tests"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 zmap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ozziechen/ClionProjects/scanner/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/blacklist.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/blacklist.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/constraint.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/constraint.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/csv.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/csv.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/lockfd.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/lockfd.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/logger.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/logger.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/pbm.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/pbm.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/queue.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/queue.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/random.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/random.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/rijndael-alg-fst.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/rijndael-alg-fst.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/util.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/util.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/xalloc.c">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/xalloc.h">
+			<Option target="zmaplib"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/aesrand.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/aesrand.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/cyclic.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/cyclic.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/expression.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/expression.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/fieldset.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/fieldset.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/filter.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/filter.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/get_gateway.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/get_gateway.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/iterator.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/iterator.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/monitor.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/monitor.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/module_csv.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/module_csv.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/module_json.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/module_json.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/output_modules.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/output_modules/output_modules.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_bacnet.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_bacnet.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_dns.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_dns.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_icmp_echo.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_icmp_echo_time.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_ntp.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_ntp.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_tcp_synackscan.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_tcp_synscan.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_tcp_synscan.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_udp.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_udp.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/module_upnp.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/packet.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/packet.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/probe_modules.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/probe_modules/probe_modules.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/recv-pcap.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/recv.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/recv.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/send.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/send.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/shard.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/shard.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/socket-bsd.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/socket.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/socket.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/state.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/state.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/summary.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/summary.h">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/tests/test_harness.c">
+			<Option target="ztests"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/topt_compat.c">
+			<Option target="ztee"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/validate.c">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/validate.h">
+			<Option target="ziterate"/>
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zblacklist.c">
+			<Option target="zblacklist"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zbopt_compat.c">
+			<Option target="zblacklist"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/ziterate.c">
+			<Option target="ziterate"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zitopt_compat.c">
+			<Option target="ziterate"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zmap.c">
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zopt_compat.c">
+			<Option target="ztests"/>
+			<Option target="zmap"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/ztee.c">
+			<Option target="ztee"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/topt.ggo.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zbopt.ggo.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zitopt.ggo.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/ozziechen/ClionProjects/scanner/src/zopt.ggo.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -74,7 +74,7 @@ typedef struct fieldset {
 // order. We generate a translated fieldset that contains
 // only the fields we want to export to the output module.
 // a translation specifies how to efficiently convert the fs
-// povided by the probe module to the fs for the output module.
+// provided by the probe module to the fs for the output module.
 typedef struct translation {
 	int len;
 	int translation[MAX_FIELDS];
